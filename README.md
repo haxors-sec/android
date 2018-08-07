@@ -1,5 +1,7 @@
 as opções de programação em modo Normal, o dispositivo deve estar em modo Depurador e na tela unicial.
+
 as opções de programação em modo Bootloader, o dispositivo deve está na tela de Recovery.
+
 obs: todas os modos necessitam de o cabo usb está conectado no computador.
 
 
@@ -29,19 +31,58 @@ obs: todas os modos necessitam de o cabo usb está conectado no computador.
 
 
 OPÇÕES:
+
 0 = testa se o aparelho está se comunicando.
+
 1 = desbloqueia dispositivos Motorola para efetuar o root.
+
 2 = formata o dispositivo em modo recovery.
+
 3 = reinicia o dispositivo e o coloca em modo Bootloader.
+
 4 = reinicia o dispositivo e o coloca em modo Normal.
+
 5 = escreve uma custom recovery no dispositivo (cuidado com essa opção e escolha o arquivo correto).
+
 6 = testa a comunicação do aparelho em modo Recovery.
+
 7 = abre uma janela shell para dar comandos em modo normal.
+
 8 = coloca o dispositivo em modo Recovery.
+
 9 = abre uma janela shell para dar comandos em modo de rede (remotamente).
+
 10 = força uma conexão com o dispositivo.
+
 11 = desliga e liga novamente o lcd e restaura rom do motoroola moto g.
+
 12 = sai do sistema.
+
+========================================================================
+
+instalação:
+
+git clone chttps://github.com/haxors-sec/android.git
+
+permissão para execução:
+
+chmod +777 haxors-droid.sh
+
+execução:
+
+./haxors-droid.sh
+
+=======================================================================
 
 
 Script para programação de dispositivos Android e desbloqueio de bootloaders da Motorola.
+
+
+=================================================================
+
+- Todos os direitos reservados - Copyright 2018 Haxors Security -
+
+=================================================================
+
+
+**Se modificar o script, deixe os creditos para o desenvolvedor
